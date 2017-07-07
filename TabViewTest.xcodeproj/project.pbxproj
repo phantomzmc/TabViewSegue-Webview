@@ -15,6 +15,10 @@
 		2AEB02971F0F613F00E8FCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AEB02951F0F613F00E8FCE7 /* LaunchScreen.storyboard */; };
 		2AEB02A21F0F614000E8FCE7 /* TabViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB02A11F0F614000E8FCE7 /* TabViewTestTests.swift */; };
 		2AEB02AD1F0F614000E8FCE7 /* TabViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB02AC1F0F614000E8FCE7 /* TabViewTestUITests.swift */; };
+		2AEB02BB1F0F66E900E8FCE7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB02BA1F0F66E900E8FCE7 /* HomeViewController.swift */; };
+		2AEB02BD1F0F677100E8FCE7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB02BC1F0F677100E8FCE7 /* WebViewController.swift */; };
+		2AEB02BF1F0F6DCA00E8FCE7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB02BE1F0F6DCA00E8FCE7 /* HistoryViewController.swift */; };
+		2AEB02C11F0F70BF00E8FCE7 /* SubHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEB02C01F0F70BF00E8FCE7 /* SubHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		2AEB02A81F0F614000E8FCE7 /* TabViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEB02AC1F0F614000E8FCE7 /* TabViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTestUITests.swift; sourceTree = "<group>"; };
 		2AEB02AE1F0F614000E8FCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AEB02BA1F0F66E900E8FCE7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2AEB02BC1F0F677100E8FCE7 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2AEB02BE1F0F6DCA00E8FCE7 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		2AEB02C01F0F70BF00E8FCE7 /* SubHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,10 @@
 			children = (
 				2AEB02891F0F613F00E8FCE7 /* AppDelegate.swift */,
 				2AEB028B1F0F613F00E8FCE7 /* ViewController.swift */,
+				2AEB02BA1F0F66E900E8FCE7 /* HomeViewController.swift */,
+				2AEB02BC1F0F677100E8FCE7 /* WebViewController.swift */,
+				2AEB02BE1F0F6DCA00E8FCE7 /* HistoryViewController.swift */,
+				2AEB02C01F0F70BF00E8FCE7 /* SubHistoryViewController.swift */,
 				2AEB028D1F0F613F00E8FCE7 /* Main.storyboard */,
 				2AEB02931F0F613F00E8FCE7 /* Assets.xcassets */,
 				2AEB02951F0F613F00E8FCE7 /* LaunchScreen.storyboard */,
@@ -266,8 +278,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AEB028C1F0F613F00E8FCE7 /* ViewController.swift in Sources */,
+				2AEB02C11F0F70BF00E8FCE7 /* SubHistoryViewController.swift in Sources */,
 				2AEB028A1F0F613F00E8FCE7 /* AppDelegate.swift in Sources */,
 				2AEB02921F0F613F00E8FCE7 /* TabViewTest.xcdatamodeld in Sources */,
+				2AEB02BF1F0F6DCA00E8FCE7 /* HistoryViewController.swift in Sources */,
+				2AEB02BD1F0F677100E8FCE7 /* WebViewController.swift in Sources */,
+				2AEB02BB1F0F66E900E8FCE7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
