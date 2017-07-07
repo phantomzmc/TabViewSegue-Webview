@@ -80,7 +80,7 @@
                                 <rect key="frame" x="141" y="538" width="93" height="30"/>
                                 <state key="normal" title="NextbySegue"/>
                                 <connections>
-                                    <action selector="nexyBySegue:" destination="8QB-gy-VBk" eventType="touchUpInside" id="Z7I-Cb-7zR"/>
+                                    <action selector="nextPage:" destination="8QB-gy-VBk" eventType="touchUpInside" id="wdh-6E-FmI"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="04z-8W-Tkj">

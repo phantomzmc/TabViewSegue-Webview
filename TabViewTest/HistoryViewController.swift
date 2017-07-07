@@ -12,9 +12,11 @@ class HistoryViewController: UIViewController {
 
     @IBOutlet weak var surnameTextField: UITextField!
     @IBOutlet weak var nameTextField: UITextField!
-    @IBAction func nexyBySegue(_ sender: Any) {
+    
+    @IBAction func nextPage(_ sender: Any) {
         self.performSegue(withIdentifier: "toSubHistory", sender: self)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,14 +29,19 @@ class HistoryViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if (segue.identifier == "toSubHistory") {
+//            let subHistoryController:SubHistoryViewController = segue.destination as! SubHistoryViewController
+//            subHistoryController.name = nameTextField.text
+//            subHistoryController.surname = surnameTextField.text
+//            self.present(subHistoryController, animated: true, completion: nil)
+//        }
+//        
+//    }
+    
 
 }

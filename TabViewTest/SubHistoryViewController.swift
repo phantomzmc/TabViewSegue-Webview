@@ -9,6 +9,11 @@
 import UIKit
 
 class SubHistoryViewController: UIViewController {
+    
+    var name:String?
+    var surname:String?
+    
+    
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var surnameLabel: UILabel!
@@ -17,6 +22,14 @@ class SubHistoryViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if (name != nil),surname != nil {
+            nameLabel.text = name
+            surnameLabel.text = surname
+        }else{
+            nameLabel.text = " No Data"
+            surnameLabel.text = "No data"
+        }
 
         // Do any additional setup after loading the view.
     }
